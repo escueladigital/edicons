@@ -1,1 +1,0 @@
-module.exports.BreakerTwoIcon = require("./BreakerTwoIcon.js")

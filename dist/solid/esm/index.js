@@ -1,1 +1,0 @@
-export { default as BreakerTwoIcon } from './BreakerTwoIcon.js'

@@ -1,2 +1,4 @@
 /node_modules
+/dist/outline
+/dist/solid
 yarn.lock
