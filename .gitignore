@@ -1,4 +1,5 @@
 /node_modules
 /dist/outline
 /dist/solid
+package-lock.json
 yarn.lock
