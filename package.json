@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "files": [],
-  "scripts": {},
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "node ./scripts/build.js react"
+  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/plugin-transform-react-jsx": "^7.16.0",
@@ -11,5 +14,8 @@
     "camelcase": "^6.2.1",
     "rimraf": "^3.0.2"
   },
-  "repository": "git@gitlab.com:EDteam/edicons.git"
+  "repository": "git@gitlab.com:EDteam/edicons.git",
+  "dependencies": {
+    "svgo": "^2.8.0"
+  }
 }
