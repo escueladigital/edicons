@@ -1,13 +1,13 @@
 {
-  "name": "@heroicons/react",
+  "name": "edicons",
   "license": "MIT",
   "version": "1.0.5",
   "description": "",
   "keywords": [],
-  "homepage": "https://github.com/tailwindlabs/heroicons#readme",
+  "homepage": "https://gitlab.com/EDteam/edicons",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tailwindlabs/heroicons.git"
+    "url": "https://gitlab.com/EDteam/edicons"
   },
   "files": [
     "outline",
