@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-    "removeDimensions",
     "sortAttrs",
     {
       name: "removeAttrs",
