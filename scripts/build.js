@@ -23,10 +23,10 @@ const reactTransform = async (svg, componentName, format) => {
 };
 
 const getIcons = async (style) => {
-  const files = await fs.readdir(`./src/${style}`);
+  const files = await fs.readdir(`./optimized/${style}`);
   return Promise.all(
     files.map(async (file) => ({
-      svg: await fs.readFile(`./src/${style}/${file}`, "utf8"),
+      svg: await fs.readFile(`./optimized/${style}/${file}`, "utf8"),
       componentName: `${camelcase(file.replace(/\.svg$/, ""), {
         pascalCase: true,
       })}Icon`,
