@@ -1,0 +1,21 @@
+{
+  "name": "ed-icons",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [],
+  "scripts": {
+    "prepublishOnly": "npm run build-outline && npm run build-solid && npm run build",
+    "build": "node ./scripts/build.js react",
+    "build-outline": "svgo -f ./src/outline -o ./optimized/outline --pretty --indent=2",
+    "build-solid": "svgo -f ./src/solid -o ./optimized/solid --pretty --indent=2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-react-jsx": "^7.16.0",
+    "@svgr/core": "^6.1.0",
+    "camelcase": "^6.2.1",
+    "rimraf": "^3.0.2",
+    "svgo": "^2.8.0"
+  },
+  "repository": "git@gitlab.com:EDteam/edicons.git"
+}

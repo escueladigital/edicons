@@ -1,0 +1,22 @@
+{
+  "name": "ed-icons",
+  "license": "MIT",
+  "version": "1.0.5",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://gitlab.com/EDteam/edicons",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/EDteam/edicons"
+  },
+  "files": [
+    "outline",
+    "solid"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">= 16"
+  }
+}
