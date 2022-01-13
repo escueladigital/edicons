@@ -86,26 +86,6 @@ function main() {
       buildIcons("solid", "cjs"),
       buildIcons("outline", "esm"),
       buildIcons("outline", "cjs"),
-      fs.writeFile(
-        `./dist/outline/package.json`,
-        `{"module": "./esm/index.js"}`,
-        "utf8"
-      ),
-      fs.writeFile(
-        `./dist/outline/esm/package.json`,
-        `{"type": "module"}`,
-        "utf8"
-      ),
-      fs.writeFile(
-        `./dist/solid/package.json`,
-        `{"module": "./esm/index.js"}`,
-        "utf8"
-      ),
-      fs.writeFile(
-        `./dist/solid/esm/package.json`,
-        `{"type": "module"}`,
-        "utf8"
-      ),
     ])
   );
 }
